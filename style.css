@@ -1,0 +1,85 @@
+ body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.main-container{
+    background-color: pink;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    margin: 10px;
+}
+
+.input-container{
+    border: solid 2px black;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 24px;
+    letter-spacing: 4px;
+
+}
+
+.input::placeholder{
+    letter-spacing: 0;
+}
+
+.far{
+    cursor: pointer;
+    opacity: .3;
+}
+
+.far:hover{
+    opacity: .7;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: green;
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+.alert-container{
+    position: fixed;
+    width: 300px;
+    height: 50px;
+    background-color: lightgreen;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+.active.alert-container{
+    right: -300px;
+}
