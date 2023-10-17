@@ -39,6 +39,6 @@ function createPassword() {
 
 function copyPassword(){
     inputEl.select();
-    inputEl.setSelectionRange(0, 99999); //For Mobile devices.
+    inputEl.setSelectionRange(0, 99999); //For Mobile devices...
     navigator.clipboard.writeText(inputEl.value);    
 }
