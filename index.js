@@ -18,7 +18,7 @@ iconEl.addEventListener("click", () =>{
             alertEl.classList.add("active");
         }, 2000);
     }
-})
+});
 
 function createPassword() {
     const chars = "1234567890abcdefghijklmnopqrstuvwxyz!@#%$^&*()_+=/-ABCDEFGHIJKLMNOPQRSTUVWXYZ";
